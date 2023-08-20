@@ -4,7 +4,7 @@ from models import db, Menu,Order,Customer
 
 import time
 
-from sqlalchemy import select,func
+from sqlalchemy import select, func
 
 from art import *
 
