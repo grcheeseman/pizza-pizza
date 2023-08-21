@@ -1,5 +1,15 @@
 # Pizza Pizza!
 
+To ensure the program runs correctly, enter the following into the terminal:
+
+    cd lib
+    pipenv install
+    pipenv shell
+
+    cd lib
+    python seed.py
+    python cli.py
+
 ### A CLI that let's users view a menu and order a slice of pizza
 
 Using SQLAlchemy, and Python, this application is seeded with a fixed menu and random customer data and allows users to add to the database or interact with the existing information.
@@ -10,11 +20,7 @@ Pizza Menu —> Order <— Customer
 
 ### Interface Design
 
-User are able to:
-
-1. Enter their information or enter their email to get their information as a return customer
-2. See the menu
-3. Create a new order
+The opjective of this project was to create a CLI using Python and SQLAlchemy where the user can enter their information as new customers or search for information in the database using their email as a return customer, view the menu options, order one slice of pizza from the menu, view the order total due, and enjoy their pizza!
 
 ### Created by
 
